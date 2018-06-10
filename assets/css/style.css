@@ -1,0 +1,168 @@
+body{
+    background-color:#eeeeee;
+    background-image: url("regal.png");
+}
+#name {
+    font-family: 'Courgette', cursive;
+    font-size:35px;
+    color: white;
+    padding: 12px;
+    width: 200px;
+    background-color: #53d2d6;
+    float:left;
+    margin-left:175px;
+}
+
+header,p,form {
+    font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777777;
+}
+
+a{
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+}
+header{
+    background-color: #ffffff;
+}
+
+#upperline{
+    height: 2px;
+    color: #4aaaa5;
+    background-color: #4aaaa5
+}
+
+#options {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align:right;
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    margin-right: 150px;
+}
+
+h2{
+    font-size:35px;
+    font-family: 'Belleza', sans-serif;
+    clear:both;  
+}
+
+#maincontent {
+    width: 960px;
+    height: 100%;
+    padding:20px;
+    background-color:#ffffff;
+    margin-top:25px;
+    margin-left: auto;
+    margin-right:auto;
+    border-color: #dddddd;
+    min-height: calc(100vh - 70px);
+}
+
+#profile {
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#lowerline { 
+    height: 5px; 
+    color: #4aaaa5;
+    background-color: #4aaaa5;
+    margin-top: 25px;
+}
+
+#abstract, #skyline, #sushi, #orchid, #music {
+    padding: 15px;
+    position: relative;
+}
+
+.footer {
+    height: 25px;
+    padding:10px;
+    margin-top: -9px;
+    background-color: #666666;
+    text-align: center;
+}
+
+#art, #food {
+    position:relative;
+    float: left;
+}
+
+#travel, #nature, #edm {
+    position: relative;
+}
+
+h4{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+#text-block, #text-block2, #text-block4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #5bc7ca;
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#text-block1, #text-block3 {
+    position: absolute;
+    bottom: 20px;
+    left: 350px;
+    background-color:#5bc7ca;
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+form {
+    padding: 15px;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+#message {
+    width: 225px;
+    text-align:left; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    background-color: #f4f5f7de;
+    padding-left:0;
+    padding-bottom:100px;
+}
+
+#firstname, #email {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    background-color: #f4f5f7de;
+}
+
+#submit {
+    background-color: #5bc7ca;
+    padding:5px;
+}
+
+#firstname:focus {
+    background-color: #ffffff;
+}
+
+#email:focus {
+    background-color: #ffffff;
+}
+
+#message:focus {
+    background-color: #ffffff;
+}
+
